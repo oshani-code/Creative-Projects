@@ -1,0 +1,297 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: radial-gradient(#f1f2b5,#135058);
+   
+  }
+  
+   body:hover{
+    
+    background:linear-gradient(45deg,#a8caba ,#135058,#1d976c,#93f9b9,#dd5e89,#f7bb97,#12d8fa,#a6ffcb);
+    
+   }
+
+   /*------------------HEAD OF CAT-------------------*/
+  
+  .cat-head {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    width: 205px;
+    height: 180px;
+    border: 1px solid #000;
+    border-radius: 46%;
+    
+  }
+
+  .cat-head:hover{
+    animation: ani 2.5s linear infinite;
+    transition: 2s ease-in;
+  }
+
+  /*----------------EAR OF CAT---------------*/
+
+  /*----------------LEFT EAR OF CAT---------------*/
+  
+  
+  .cat-left-ear {
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    z-index: 1;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    transform: rotate(-45deg);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+  }
+
+  /*----------------RIGHT EAR OF CAT---------------*/
+  
+  
+  .cat-right-ear {
+    position: absolute;
+    top: -26px;
+    left: 163px;
+    z-index: 1;
+    transform: rotate(45deg);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+  }
+
+  /*----------------INNER EAR OF CAT---------------*/
+  
+  /*----------------LEFT INNER EAR OF CAT---------------*/
+  
+  
+  
+  .cat-left-inner-ear {
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+  }
+
+  /*----------------RIGHT INNER EAR OF CAT---------------*/
+  
+  
+  .cat-right-inner-ear {
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+  }
+
+  /*----------------EYE OF CAT---------------*/
+  
+  /*----------------LEFT EYE OF CAT---------------*/
+  
+  .cat-left-eye {
+    position: absolute;
+    top: 54px;
+    left: 39px;
+    border-radius: 60%;
+    transform: rotate(25deg);
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+  }
+
+  /*----------------RIGHT EYE OF CAT---------------*/
+  
+  
+  .cat-right-eye {
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    border-radius: 60%;
+    transform: rotate(-25deg);
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+  }
+
+  /*----------------INNER EYE OF CAT---------------*/
+  
+  /*-------------LEFT INNER EYE OF CAT-------------*/
+  
+  
+  .cat-left-inner-eye {
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    width: 10px;
+    height: 20px;
+    transform: rotate(10deg);
+    background-color: #fff;
+    border-radius: 60%;
+  }
+
+  /*-------------RIGHT INNER EYE OF CAT-------------*/
+  
+  
+  .cat-right-inner-eye {
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    transform: rotate(-5deg);
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 60%;
+  }
+
+  /*---------------NOSE OF CAT---------------*/
+  
+  .cat-nose {
+    position: absolute;
+    top: 108px;
+    left: 85px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transform: rotate(180deg);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #442c2c;
+  }
+
+  /*---------------MOUTH OF CAT---------------*/
+  
+  
+  .cat-mouth div {
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 190%/190px 150px 0 0;
+    border-color: black transparent transparent transparent;
+  }
+
+  /*--------------LEFT MOUTH LINE  OF CAT--------------*/
+  
+  
+  .cat-mouth-line-left {
+    position: absolute;
+    top: 88px;
+    left: 74px;
+    transform: rotate(170deg);
+  }
+  
+  /*--------------RIGHT MOUTH LINE OF CAT--------------*/
+  
+  .cat-mouth-line-right {
+    position: absolute;
+    top: 88px;
+    left: 91px;
+    transform: rotate(165deg);
+  }
+
+  /*--------------CAT WHISKER--------------*/
+  
+  /*---------------LEFT WHISKERS OF CAT--------------*/
+  
+  
+  .cat-whiskers-left div {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+  }
+
+  /*--------------RIGHT WHISKERS OF CAT--------------*/
+  
+  
+  .cat-whiskers-right div {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+  }
+
+  /*----------------TOP LEFT WHISKERS OF CAT--------------*/
+  
+  
+   .cat-whisker-left-top {
+    position: absolute;
+    top: 120px;
+    left: 52px;
+    transform: rotate(10deg);
+  }
+  
+  /*----------------MIDDLE LEFT WHISKERS OF CAT--------------*/
+  
+  .cat-whisker-left-middle {
+    position: absolute;
+    top: 127px;
+    left: 52px;
+    transform: rotate(3deg);
+  }
+
+  /*--------------BOTTOM LEFT WHISKERS OF CAT--------------*/
+  
+  
+  .cat-whisker-left-bottom {
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    transform: rotate(-3deg);
+  }
+
+  /*--------------TOP RIGHT WHISKERS OF CAT--------------*/
+  
+  
+  .cat-whisker-right-top {
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    transform: rotate(-10deg);
+  }
+
+  /*--------------MIDDLE RIGHT WHISKERS OF CAT--------------*/
+  
+  
+  .cat-whisker-right-middle {
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+  }
+
+  /*--------------BOTTOM RIGHT WHISKERS OF CAT--------------*/
+  
+  
+  .cat-whisker-right-bottom {
+    position: absolute;
+    top: 134px;
+    left: 109px;
+    transform:rotate(3deg);
+  }
+
+  /*--------------------USE FOR ROTATING CAT HEAD-----------------*/
+
+  @keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+  }
